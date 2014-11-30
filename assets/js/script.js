@@ -63,15 +63,21 @@ $(document).ready(function() {
 	});
 
 	$("#resume").click(function() {
-		$("html, body").animate({scrollTop:$("#resume-container").offset().top}, 400);
+		$("html, body").animate({scrollTop:$("#resume-container").offset().top - 32}, 400);
 	});
 
 	$("#blog").click(function() {
-		$("html, body").animate({scrollTop:$("#blog-container").offset().top}, 400);
+		$("html, body").animate({scrollTop:$("#blog-container").offset().top - 32}, 400);
 	});
 
 	$("#contact").click(function() {
-		$("html, body").animate({scrollTop:$("#contact-container").offset().top}, 400);
+		$("html, body").animate({scrollTop:$("#contact-container").offset().top - 32}, 400);
+	});
+
+	$("#submit-text").click(function() {
+		var name = $("#id").val();
+		alert("Hello " + name + "! Sorry to disappoint you, but my question feature is currently under construction. Please feel free to e-mail or call me at anytime. Thank you for your time!");
+		$("#question").text("Sorry " + name + "! I Cannot Answer You Here!");
 	});
 
 });

@@ -10,9 +10,10 @@ body {
 #menu {
 	height: 40px;
 	width: 1300px;
-	background: #B2D9F7;
+	background: #cdc5bf;
 	border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
+	-moz-border-radius: 100px / 50px;
 	z-index: 50;
 	border: solid black;
 	position: fixed;
@@ -125,7 +126,7 @@ body {
 	padding-top: 80px;
 	padding-bottom: 20px;
 	overflow: auto;
-	background: #487AA1;
+	background: #a2b5cd;
 }
 
 #about-img {
@@ -149,7 +150,7 @@ body {
 
 /**Resume*/
 #resume-container {
-	background: #3D3C3B;
+	background: #778899;
 	padding-top: 20px;
 	padding-bottom: 40px; 
 }
@@ -168,7 +169,7 @@ body {
 
 /**Blog*/
 #blog-container {
-	background: #7C8071;
+	background: #808069;
 	padding-top: 20px;
 	padding-bottom: 40px; 
 	overflow: auto;
@@ -223,7 +224,7 @@ body {
 
 /**Contact Me*/
 #contact-container {
-	background: #DDE3CA;
+	background: #C1CDCD;
 	padding-top: 20px;
 	padding-bottom: 40px; 
 	overflow: auto;
@@ -256,4 +257,48 @@ body {
 	float: right;
 	margin-right: 20px;
 	width: 650px;
+	font-size: 20px;
+	font-weight: 600;
 }
+
+#id {
+	border: 5px solid white;
+	padding: 10px;
+	background: transparent;
+	margin: 0px;
+	margin-top: 10px;
+	width: 460px;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+}
+
+#q {
+	border: 5px solid white;
+	padding: 10px;
+	background: transparent;
+	margin: 0px;
+	margin-top: 10px;
+	width: 460px;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+}
+
+#submit {
+	cursor: pointer;
+	margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background: white;
+    color: #5485BB;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#submit-text {
+	position: relative;
+    top: calc(50% - 11px);
+}
+
