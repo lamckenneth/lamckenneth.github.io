@@ -10,7 +10,7 @@ body {
 	#menu {
 		height: 40px;
 		width: 96.36%;
-		background: #6A4A3C;
+		background: #CDC0B0;
 		border-radius: 100px / 50px;
 		-webkit-border-radius: 100px / 50px;
 		-moz-border-radius: 100px / 50px;
@@ -18,7 +18,7 @@ body {
 		border: solid black;
 		position: fixed;
 		top: 10px;
-		left: calc(1.6%);
+		left: 1.6%;
 	}
 
 	#name {
@@ -26,7 +26,7 @@ body {
 		color: black;
 		font-size: 30px;
 		position: fixed;
-		left: calc(50% - 101.5px);
+		left: 42.5%;
 		margin-top: 5.5px;
 		cursor: default;
 	}
@@ -129,7 +129,7 @@ body {
 		padding-top: 80px;
 		padding-bottom: 20px;
 		overflow: auto;
-		background: #00A0B0;
+		background: #477c82;
 	}
 
 	#about-img {
@@ -155,7 +155,7 @@ body {
 
 	/**Resume*/
 	#resume-container {
-		background: #EDC951;
+		background: #ddd399;
 		padding-top: 20px;
 		padding-bottom: 40px; 
 	}
@@ -167,14 +167,14 @@ body {
 	#resume-img {
 		width: 70%;
 		position: relative;
-		left: calc(15%);
+		left: 15%;
 		cursor: pointer;
 		z-index: 2;
 	}
 
 	/**Blog*/
 	#blog-container {
-		background: #EB6841;
+		background: #4A708B;
 		padding-top: 20px;
 		padding-bottom: 40px; 
 		overflow: auto;
@@ -191,7 +191,7 @@ body {
 		border-width: 5px;
 		width: 97%;
 		position: relative;
-		left: calc(1.1%);
+		left: 1.1%;
 		overflow: auto;
 	}
 
@@ -229,7 +229,7 @@ body {
 
 	/**Contact Me*/
 	#contact-container {
-		background: #CC333F;
+		background: #9ba174;
 		padding-top: 20px;
 		padding-bottom: 40px; 
 		overflow: auto;
@@ -287,7 +287,7 @@ body {
 		background: transparent;
 		margin: 0px;
 		margin-top: 10px;
-		width: 81.5%;
+		width: 81.6%;
 		font-size: 16px;
 		font-weight: 700;
 		color: #FCFEF5;
@@ -300,12 +300,12 @@ body {
 	    height: 40px;
 	    text-align: center;
 	    background: #FCFEF5;
-	    color: #CC333F;
+	    color: #9ba174;
 	    font-size: 16px;
 	    font-weight: 700;
 	}
 
 	#submit-text {
 		position: relative;
-	    top: calc(50% - 10.5px);
+	    top: 23.75%;
 	}
