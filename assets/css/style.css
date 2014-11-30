@@ -10,7 +10,7 @@ body {
 #menu {
 	height: 40px;
 	width: 1300px;
-	background: #C6CCA5;
+	background: #B2D9F7;
 	border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	z-index: 50;
@@ -125,7 +125,7 @@ body {
 	padding-top: 80px;
 	padding-bottom: 20px;
 	overflow: auto;
-	background: #8AB8A8;
+	background: #487AA1;
 }
 
 #about-img {
@@ -149,7 +149,7 @@ body {
 
 /**Resume*/
 #resume-container {
-	background: #6B9997;
+	background: #3D3C3B;
 	padding-top: 20px;
 	padding-bottom: 40px; 
 }
@@ -168,7 +168,7 @@ body {
 
 /**Blog*/
 #blog-container {
-	background: #54787D;
+	background: #7C8071;
 	padding-top: 20px;
 	padding-bottom: 40px; 
 	overflow: auto;
@@ -223,7 +223,7 @@ body {
 
 /**Contact Me*/
 #contact-container {
-	background: #615145;
+	background: #DDE3CA;
 	padding-top: 20px;
 	padding-bottom: 40px; 
 	overflow: auto;
@@ -234,7 +234,9 @@ body {
 }
 
 #contact-text {
+	float: left;
 	margin-left: 20px;
+	width: 650px;
 }
 
 .contact-info {
@@ -248,4 +250,10 @@ body {
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition: all .3s;
+}
+
+#question-container {
+	float: right;
+	margin-right: 20px;
+	width: 650px;
 }

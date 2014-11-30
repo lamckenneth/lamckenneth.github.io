@@ -58,24 +58,20 @@ $(document).ready(function() {
 		}
 	});
 
-	var resume = $("#resume-container").offset();
-	var blog = $("#blog-container").offset();
-	var contact = $("#contact-container").offset();
-
 	$("#me").click(function() {
-		$("html, body").animate({scrollTop:0}, 300);
+		$("html, body").animate({scrollTop:0}, 400);
 	});
 
 	$("#resume").click(function() {
-		$("html, body").animate({scrollTop:resume.top}, 400);
+		$("html, body").animate({scrollTop:$("#resume-container").offset().top}, 400);
 	});
 
 	$("#blog").click(function() {
-		$("html, body").animate({scrollTop:blog.top}, 400);
+		$("html, body").animate({scrollTop:$("#blog-container").offset().top}, 400);
 	});
 
 	$("#contact").click(function() {
-		$("html, body").animate({scrollTop:contact.top}, 400);
+		$("html, body").animate({scrollTop:$("#contact-container").offset().top}, 400);
 	});
 
 });
