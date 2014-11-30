@@ -1,44 +1,68 @@
 $(document).ready(function() {
 	
+	var size = parseInt($("#me").css("font-size"));
+	var original = size;
+	var larger = size + 2;
+
 	$("#me").hover(function() {
 		if ($("#me").hasClass("menu-item-active")) {
 			$("#me").removeClass("menu-item-active");
+			$("#me").css("font-size", original);
 		} else {
 			$("#me").addClass("menu-item-active");
+			$("#me").css("font-size", larger);
 		}
 	});
+
+	var size2 = parseInt($("#resume").css("font-size"));
+	var original2 = size;
+	var larger2 = size + 2;
 
 	$("#resume").hover(function() {
 		if ($("#resume").hasClass("menu-item-active")) {
 			$("#resume").removeClass("menu-item-active");
+			$("#resume").css("font-size", original2);
 		} else {
 			$("#resume").addClass("menu-item-active");
+			$("#resume").css("font-size", larger2);
 		}
 	});
+
+	var size3 = parseInt($("#blog").css("font-size"));
+	var original3 = size;
+	var larger3 = size + 2;
 
 	$("#blog").hover(function() {
 		if ($("#blog").hasClass("menu-item-active")) {
 			$("#blog").removeClass("menu-item-active");
+			$("#blog").css("font-size", original3);
 		} else {
 			$("#blog").addClass("menu-item-active");
+			$("#blog").css("font-size", larger3);
 		}
 	});
+
+	var size4 = parseInt($("#contact").css("font-size"));
+	var original4 = size;
+	var larger4 = size + 2;
 
 	$("#contact").hover(function() {
 		if ($("#contact").hasClass("menu-item-active")) {
 			$("#contact").removeClass("menu-item-active");
+			$("#contact").css("font-size", original4);
 		} else {
 			$("#contact").addClass("menu-item-active");
+			$("#contact").css("font-size", larger4);
 		}
 	});
 
 	$("#resume-img").hover(function() {
 		if ($("#page-overlay").hasClass("page-overlay-active")) {
 			$("#page-overlay").removeClass("page-overlay-active");
-			$("#menu-wrapper").css("display", "block");
+			$("#menu-wrapper").show();
 		} else {
 			$("#page-overlay").addClass("page-overlay-active");
-			$("#menu-wrapper").css("display", "none");
+			$("#menu-wrapper").hide();
 		}
 	});
 
@@ -47,14 +71,6 @@ $(document).ready(function() {
 			$(this).removeClass("menu-item-active");
 		} else {
 			$(this).addClass("menu-item-active");
-		}
-	});
-
-	$(".contact-info").hover(function() {
-		if ($(this).hasClass("contact-info-active")) {
-			$(this).removeClass("contact-info-active");
-		} else {
-			$(this).addClass("contact-info-active");
 		}
 	});
 
@@ -76,7 +92,7 @@ $(document).ready(function() {
 
 	$("#submit-text").click(function() {
 		var name = $("#id").val();
-		alert("Hello " + name + "! Sorry to disappoint you, but my question feature is currently under construction. Please feel free to e-mail or call me at anytime. Thank you for your time!");
+		alert("Hi " + name + "! Sorry to disappoint you, but my question feature is currently under construction. Please feel free to e-mail or call me at anytime. Thank you for your time!");
 		$("#question").text("Sorry " + name + "! I Cannot Answer You Here!");
 	});
 
