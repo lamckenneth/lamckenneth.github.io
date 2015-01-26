@@ -6,6 +6,247 @@ body {
 		font-family: 'Droid Serif', serif;
 	}
 
+
+/**Mobile Version*/
+@media (max-width: 480px) {
+	#menu {
+		height: 40px;
+		width: 96.36%;
+		background: #CDC0B0;
+		border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		-moz-border-radius: 100px / 50px;
+		z-index: 50;
+		border: solid black;
+		margin-top: 10px;
+		left: 1%;
+		position: absolute;
+	}
+
+	#name {
+		font-weight: 700;
+		color: black;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 5.5px;
+		cursor: default;
+	}
+
+	.menu-item {
+		display: none;
+	}
+
+
+	/**Rest of the website*/
+	#page-wrapper {
+		width: 100%;
+		height: 100%;
+	}
+
+	.title {
+		font-weight: 700;
+		font-size: 26px;
+		text-align: center;
+		margin-bottom: 30px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		transition: all .3s;
+	}
+
+
+	/**About Me*/
+	#about-container {
+		padding-top: 80px;
+		overflow: auto;
+		background: #477c82;
+	}
+
+	#about-img {
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	}
+
+	#about-text-container {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#about-text {
+		font-weight: 600;
+		font-size: 20px;
+	}
+
+
+	/**Resume*/
+	#resume-container {
+		background: #ddd399;
+		padding-top: 20px;
+		padding-bottom: 40px; 
+	}
+
+	#resume-title {
+		padding-top: 20px;
+	}
+
+	#resume-img {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	/**Blog*/
+	#blog-container {
+		background: #4A708B;
+		padding-top: 20px;
+		padding-bottom: 40px; 
+		overflow: auto;
+	}
+
+	#blog-title {
+		padding-top: 20px;
+	}
+
+	.blog-post {
+		margin-top: 30px;
+		border-radius: 1%;
+		border: double black;
+		border-width: 5px;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: auto;
+	}
+
+	.post-top {
+		overflow: auto;
+		margin: 20px;
+	}
+
+	.post-title {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.post-date {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.post-img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 90%;
+		border-radius: 1%;
+	}
+
+	.post-text-container {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+
+	/**Contact Me*/
+	#contact-container {
+		background: #9ba174;
+		padding-top: 20px;
+		padding-bottom: 40px; 
+		overflow: auto;
+	}
+
+	#contact-title {
+		padding-top: 20px;
+	}
+
+	#contact-text {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: auto;
+	}
+
+	.contact-info {
+		font-size: 20px;
+		font-weight: 600;
+		margin-top: 20px;
+	}
+
+	.empty-class {
+
+	}
+
+	.contact-info:first-child {
+		margin-top: 0px;
+	}
+
+	#question-container {
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 25px;
+		width: 90%;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	#id {
+		border: 5px solid #FCFEF5;
+		padding: 10px;
+		background: transparent;
+		margin: 0px;
+		margin-top: 10px;
+		width: 81.6%;
+		font-size: 16px;
+		font-weight: 700;
+		color: #FCFEF5;
+	}
+
+	#q {
+		border: 5px solid #FCFEF5;
+		padding: 10px;
+		background: transparent;
+		margin: 0px;
+		margin-top: 10px;
+		width: 81.6%;
+		font-size: 16px;
+		font-weight: 700;
+		color: #FCFEF5;
+	}
+
+	#submit {
+		cursor: pointer;
+		margin-top: 10px;
+	    width: 100px;
+	    height: 40px;
+	    text-align: center;
+	    background: #FCFEF5;
+	    color: #9ba174;
+	    font-size: 16px;
+	    font-weight: 700;
+	}
+
+	#submit-text {
+		position: relative;
+	    top: 23.75%;
+	}
+}
+
+
+
+/**Laptop Version*/
+@media (min-width: 481px) {
 	/**Top menu CSS code*/
 	#menu {
 		height: 40px;
@@ -309,3 +550,4 @@ body {
 		position: relative;
 	    top: 23.75%;
 	}
+}
